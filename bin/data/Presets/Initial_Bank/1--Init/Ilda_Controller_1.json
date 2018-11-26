@@ -1,0 +1,20 @@
+{
+    "Blank_Count": "25",
+    "Clear": "0",
+    "Do_Spacing": "1",
+    "End_Count": "25",
+    "ExtWindowRect": [
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+    ],
+    "Flip_X": "0",
+    "Flip_Y": "0",
+    "Max_Opacity": "1",
+    "Min_Point_Count": "1000",
+    "Point_Count": "300",
+    "Smooth_Amount": "0",
+    "Tolerance": "0",
+    "pps": "30000"
+}

@@ -1,0 +1,22 @@
+{
+    "Blue": 1.0,
+    "Color": "255, 0, 0, 255",
+    "Division_Spacing_Vec": 0.5,
+    "Divisions_Vec": 0,
+    "End_Follow_Vec": 1.0,
+    "Green": 1.0,
+    "Jitter_Vec": 0.0,
+    "Modulation_Amount": 0.0,
+    "Num_Vertex": 1,
+    "Offset_Follow_Vec": 0.0,
+    "Opacity_Vec": 1.0,
+    "Point_Modulation": 0.5,
+    "Position_Replicator": "1",
+    "Position_points": "0.25, 0.25, 0_|_0.25, 0.75, 0_|_0.75, 0.25, 0_|_0.75, 0.75, 0",
+    "Red": 1.0,
+    "Refollow_In_Vec": 0.0,
+    "Rotation_Vec": 0.0,
+    "Scale_Pos_Vec": 1.0,
+    "Size_Vec": 0.5,
+    "To_Center": "0"
+}

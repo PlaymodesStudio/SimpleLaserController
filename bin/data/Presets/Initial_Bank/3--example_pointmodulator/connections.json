@@ -1,0 +1,23 @@
+{
+    "Graphic_Generator_1": {
+        "Output": {
+            "Ilda_Controller_1": {
+                "Polylines In1": null
+            }
+        }
+    },
+    "Oscillator_Bank_1": {
+        "Oscillator Out": {
+            "Graphic_Generator_1": {
+                "Point Modulation": null
+            }
+        }
+    },
+    "Phasor_1": {
+        "Phasor Output": {
+            "Oscillator_Bank_1": {
+                "Phasor In": null
+            }
+        }
+    }
+}

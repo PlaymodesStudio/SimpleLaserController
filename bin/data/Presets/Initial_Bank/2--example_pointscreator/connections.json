@@ -1,0 +1,40 @@
+{
+    "Graphic_Generator_1": {
+        "Output": {
+            "Ilda_Controller_1": {
+                "Polylines In1": null
+            }
+        }
+    },
+    "Oscillator_Bank_1": {
+        "Oscillator Out": {
+            "Positions_Creator_1": {
+                "X": null
+            }
+        }
+    },
+    "Oscillator_Bank_2": {
+        "Oscillator Out": {
+            "Positions_Creator_1": {
+                "Y": null
+            }
+        }
+    },
+    "Phasor_1": {
+        "Phasor Output": {
+            "Oscillator_Bank_1": {
+                "Phasor In": null
+            },
+            "Oscillator_Bank_2": {
+                "Phasor In": null
+            }
+        }
+    },
+    "Positions_Creator_1": {
+        "Output": {
+            "Graphic_Generator_1": {
+                "Positions": null
+            }
+        }
+    }
+}
