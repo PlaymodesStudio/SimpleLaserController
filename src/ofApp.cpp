@@ -13,6 +13,7 @@
 #include "positionsCreator.h"
 #include "positionsRotator.h"
 #include "vectorModulator.h"
+#include "manualOscillatorBank.h"
 
 #include "ofxOceanodeBPMController.h"
 
@@ -35,6 +36,8 @@ void ofApp::setup(){
     reg->registerModel<positionsCreator>("ESPILLS");
     reg->registerModel<positionsRotator>("ESPILLS");
     reg->registerModel<vectorModulator>("Mirrors");
+    reg->registerModel<valueEaser>("Easing");
+    reg->registerModel<manualOscillatorBank>("Generators");
     
     registerVectorOp(reg);
     treg->registerType<vector<pair<ofPolyline, ofColor>>>();
@@ -46,6 +49,8 @@ void ofApp::setup(){
     
     controls = new ofxOceanodeControls(container);
     controls->get<ofxOceanodeBPMController>()->setBPM(80);
+    
+    container->loadPersistent();
 }
 
 //--------------------------------------------------------------
