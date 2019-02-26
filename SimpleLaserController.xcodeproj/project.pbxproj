@@ -62,6 +62,7 @@
 		9F3A7F4621AC2275001FE2C2 /* manualOscillatorBank.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A7F3F21AC2274001FE2C2 /* manualOscillatorBank.cpp */; };
 		9F3A7F4721AC2275001FE2C2 /* delta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A7F4021AC2274001FE2C2 /* delta.cpp */; };
 		9F3A7F5B21AC233B001FE2C2 /* envelopeGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A7F5921AC233B001FE2C2 /* envelopeGenerator.cpp */; };
+		9FA0772E222593190034CF90 /* polylinesSVGRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA0772C222593190034CF90 /* polylinesSVGRenderer.cpp */; };
 		9FF0594521AC28A100F2C400 /* positionsCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0594221AC28A100F2C400 /* positionsCreator.cpp */; };
 		9FF0594621AC28A100F2C400 /* positionsSaver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0594421AC28A100F2C400 /* positionsSaver.cpp */; };
 		ADE367465D2A8EBAD4C7A8D9 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADD194746185E2DA11468377 /* IpEndpointName.cpp */; };
@@ -263,6 +264,8 @@
 		9F3A7F5921AC233B001FE2C2 /* envelopeGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = envelopeGenerator.cpp; sourceTree = "<group>"; };
 		9F3A7F5A21AC233B001FE2C2 /* envelopeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = envelopeGenerator.h; sourceTree = "<group>"; };
 		9F7986DC4EB05E75FCE2C777 /* ofxOscSender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxOscSender.h; path = ../../../addons/ofxOsc/src/ofxOscSender.h; sourceTree = SOURCE_ROOT; };
+		9FA0772C222593190034CF90 /* polylinesSVGRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = polylinesSVGRenderer.cpp; sourceTree = "<group>"; };
+		9FA0772D222593190034CF90 /* polylinesSVGRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = polylinesSVGRenderer.h; sourceTree = "<group>"; };
 		9FF0594021AC28A100F2C400 /* positionsCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = positionsCreator.h; sourceTree = "<group>"; };
 		9FF0594121AC28A100F2C400 /* positionsRotator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = positionsRotator.h; sourceTree = "<group>"; };
 		9FF0594221AC28A100F2C400 /* positionsCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = positionsCreator.cpp; sourceTree = "<group>"; };
@@ -1374,6 +1377,8 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				9FA0772C222593190034CF90 /* polylinesSVGRenderer.cpp */,
+				9FA0772D222593190034CF90 /* polylinesSVGRenderer.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -1639,6 +1644,7 @@
 				510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */,
 				ADE367465D2A8EBAD4C7A8D9 /* IpEndpointName.cpp in Sources */,
 				9F3A7F3521AC1E96001FE2C2 /* scriptModule.cpp in Sources */,
+				9FA0772E222593190034CF90 /* polylinesSVGRenderer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
